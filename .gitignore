@@ -1,0 +1,80 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# PyInstaller
+*.spec
+
+# pytest
+.pytest_cache/
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# === JavaScript / Frontend ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+*.log
+
+# === WebRTC / Media ===
+*.webm
+*.mp4
+*.wav
+*.ogg
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+
+# === Misc ===
+*.env
+.env.*
+
+# Local SSL certs (if testing HTTPS locally)
+*.pem
+*.key
+certs/
